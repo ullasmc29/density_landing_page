@@ -1,0 +1,51 @@
+
+.head-line{
+    display:block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Neurial Grotesk;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: center;
+    
+}
+b{
+    color:rgb(243, 243, 25);
+}
+.bottom-text{    
+    font-family: Neurial Grotesk;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E7E7EA;
+}
+
+.iphone-container{
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* <----------responsiveness------> */
+@media only screen and (max-width:800px){
+    .head-line{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .bottom-text {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 1.5px;
+    }
+    .iphone-container>img {
+         margin-top: 60px;
+         text-align: center;
+         width: 60%;
+    }
+    
+}
